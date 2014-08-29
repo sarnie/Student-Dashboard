@@ -8,7 +8,7 @@ A website where students are able to interact with their supervisors and vice ve
 - Send an eMessage to tutor
 - Upload file for review
 
-Most of the pages use require to minimise code and make updates easier
+Most of the pages use "require" to minimise code and make updates easier
 
 - inc/model.php - Stores the class that connects to the database
 - inc/controller.php - Stores all the functions

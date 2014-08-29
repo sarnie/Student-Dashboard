@@ -1,0 +1,30 @@
+img { height: auto; max-width: 100%; vertical-align: middle; border: 0; }
+
+.clear { clear: both; height: 0px; }
+
+body, h1, h2, h3, h4, h5 { font-family: 'Open Sans', sans-serif; }
+
+.no-top-border { border-top: none !important; }
+
+#main-container { background: #F4F3F3; position: relative; margin-top: 50px; margin-left: 92px; }
+#main-container .container { padding: 30px; }
+
+.container { max-width: 100%; }
+
+.navbar-inverse { background: #2A80B9; border: none; }
+
+#side-nav { background: #34393D; position: fixed; left: 0; top: 50px; height: 100%; width: 92px; }
+#side-nav ul { width: inherit; }
+#side-nav ul li { display: block; text-align: center; border-bottom: solid 1px #5C6368; }
+#side-nav ul li .glyphicon { font-size: 28px; margin-bottom: 10px; }
+#side-nav ul li span { display: block; }
+#side-nav ul li a { color: #B1AFAF; display: block; padding: 10px 0px; text-decoration: none; }
+#side-nav ul li a:hover { color: #fff; }
+#side-nav ul li:hover { background: #5C6368; }
+
+.box { min-height: 342px; background: #fff; margin-bottom: 30px; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.45); -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.45); -mozbox-shadow: 0px 1px 2px rgba(0, 0, 0, 0.45); }
+.box h2 { margin: 0; font-size: 18px; font-weight: 600; color: #2a80b9; position: relative; padding: 10px; border-bottom: solid 1px #ccc; }
+.box .title-txt { position: absolute; right: 10px; font-size: 14px; color: #4A4C59; }
+.box .m-table td { padding: 20px 10px; font-size: 20px; }
+
+#tutor-box { background: #B1AFAF; position: fixed; right: 0; top: 50px; height: 100%; width: 210px; }

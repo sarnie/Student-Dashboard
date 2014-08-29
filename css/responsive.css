@@ -1,0 +1,91 @@
+
+
+/* Smart Phones ----------- */
+
+@media (max-width: 767px) {
+	#side-nav, #tutor-box{display:none;}
+	#main-container{width:100%; margin-left:0; overflow:hidden;}
+	#main-container .container{ padding:30px 10px;}
+	.navbar-inverse{height: 50px;}
+	.navbar-inverse .navbar-brand{width: 36px; padding:0; border-bottom:none; margin: 5px auto 0px auto; float: none; background:none;}
+	.half{width:100%;}
+	.post-list{position:relative; }
+	.post-list .post-wrap{padding-bottom:10px;}
+	.post-write{float: none !important; padding-bottom: 20px; position: absolute;left: 0;top: 50px;height: 100%;}
+.count-box{width: 95%;margin: 0 auto;float: none !important;}
+.count-box p.circle{ margin-top: 20px; }
+.m-btmBorder{border-bottom:dotted 1px #ccc;}
+.m-marginBtm{margin-bottom: 20px !important;}
+.m-marginRight10{margin-right: 10px;}
+#side-nav-btn { width: 50px;padding: 10px 0px 16px 0px;margin: 0px;cursor: pointer;}
+#side-nav-btn span {background: #fff;height: 3px;width: 50%;margin: 5px auto 0px auto;display: block;}
+#side-nav{z-index:8888; width:100%;}
+#side-nav ul li{text-align: left; padding-left:10px;}
+#side-nav ul li .glyphicon {font-size: 14px;}
+#side-nav ul li a{padding:15px 0px;}
+#side-nav ul li span {display:inline;}
+.btn-active{background: #34393D;}
+
+.login-form {margin-top:50px;}
+.navbar-inverse .navbar-nav > li > a{line-height:50px;}
+.navbar-nav{margin:0; position:absolute; top:0; right:0; width:50px;}
+.navbar-inverse .t-circle{top:5px;}
+.navbar-nav .dropdown-menu, .navbar-nav .open .dropdown-menu{position:fixed; min-width: 113px; width: 113px;  right: 0; background: white; border: solid 1px #ccc; top:50px; left:auto;}
+.navbar-nav .dropdown-menu a:hover{background-color:#2A80B9 !important;}
+.navbar-inverse .dropdown-menu:after{right:20px;}
+#chart svg {
+
+  height: 400px;
+
+  width: 98%;
+
+}
+
+.u-name{display:none;}
+
+.login-form{width:98%;}
+
+.nav-justified>li {
+float: left;
+width: 50%;
+}
+
+.nav-pills>li+li {
+margin-left: 0px; 
+}
+
+}
+
+/* Tablets ----------- */
+
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+	#tutor-box{width:130px;}
+	.navbar-inverse{height: 50px;}
+	.navbar-inverse .navbar-nav > li > a, h1, .navbar-inverse .navbar-brand{line-height:50px;}
+	.navbar-inverse .navbar-brand {padding:0;}
+	.navbar-inverse .navbar-brand  img{width:40%;}
+	#main-container{margin-left: 80px;}
+	#side-nav, .navbar-inverse .navbar-brand{width:80px;}
+	#side-nav ul li .glyphicon {font-size:25px;}
+	.count-box p.circle{width:90%;margin-left: auto;margin-right: auto;}
+	.navbar-inverse .t-circle{top:7px;}
+	.login-form{width:58%;}
+}
+
+/* Medium Devices ----------- */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+/* Large Devices ----------- */
+
+@media (min-width: 1025px) {
+.navbar-inverse .t-circle{top:15px;}
+}
+
+@media (min-width: 1300px) {
+.count-box p.circle{margin-top:30px;}
+}
